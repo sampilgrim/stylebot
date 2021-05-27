@@ -9,12 +9,12 @@
 
 @keyframes flash {
   0% {
-    background-color: #fd508d !important;
+    background-color: #fd508d;
     }
   50% {
-    background-color: unset !important;
+    background-color: unset;
     }
   100% {
-    background-color: #fd508d !important;
+    background-color: #fd508d;
     }
 }
