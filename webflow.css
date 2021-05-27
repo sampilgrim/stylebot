@@ -1,20 +1,20 @@
 [data-automation-id="focused-symbol-mask"] {
-  display: none;
+  display: none !important;
 }
 
 [aria-label="Desktop - not active"] {
   /*background-color: #fd508d !important; */
-  animation: flash 2s infinite ease-in-out;
+  animation: flash 2s infinite ease-in-out !important;
 }
 
 @keyframes flash {
   0% {
-    background-color: #fd508d;
+    background-color: #fd508d !important;
     }
   50% {
-    background-color: unset;
+    background-color: unset !important;
     }
   100% {
-    background-color: #fd508d;
+    background-color: #fd508d !important;
     }
 }
