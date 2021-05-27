@@ -5,49 +5,49 @@ div {
 }
 
 div[style*="background: rgba(155, 154, 151, 0.4)"] {
-  background:#78909C;
-  color: white;
+  background:#78909C !important;
+  color: white !important;
 }
 /*red*/
 div[style*="background: rgba(255, 0, 26, 0.2)"] {
-  background: #FF5722;
-  color: white;
+  background: #FF5722 !important;
+  color: white !important;
 }
 div[style*="background: rgba(140, 46, 0, 0.2)"] {
-  background: #8d6e63;
-  color: white;
+  background: #8d6e63 !important;
+  color: white !important;
 }
 div[style*="background: rgba(233, 168, 0, 0.2)"] {
-  background: #FFEB3B;
-  color: black;
+  background: #FFEB3B !important;
+  color: black !important;
 }
 div[style*="background: rgba(245, 93, 0, 0.2)"] {
-  background: #FF9800;
-  color: white;
+  background: #FF9800 !important;
+  color: white !important;
 }
 /*purple*/
 div[style*="background: rgba(103, 36, 222, 0.2)"] {
-  background: #9C27B0;
-  color: white;
+  background: #9C27B0 !important;
+  color: white !important;
 }
 div[style*="background: rgba(206, 205, 202, 0.5)"] {
-  background: #BDBDBD;
-  color: white;
+  background: #BDBDBD !important;
+  color: white !important;
 }
 /*green*/
 div[style*="background: rgba(0, 135, 107, 0.2)"] {
-  background: #4CAF50;
-  color: white;
+  background: #4CAF50 !important;
+  color: white !important;
 }
 /*blue*/
 div[style*="background: rgba(0, 120, 223, 0.2)"] {
-  background: #2196F3;
-  color: white;
+  background: #2196F3 !important;
+  color: white !important;
 }
 /*pink to cyan*/
 div[style*="background: rgba(221, 0, 129, 0.2)"] {
-  background: #00BCD4;
-  color: white;
+  background: #00BCD4 !important;
+  color: white !important;
 }
 
 
@@ -59,20 +59,20 @@ div[style*="background: rgba(221, 0, 129, 0.2)"] {
 
 /*sidebar*/
 div[style*="background: rgb(247, 246, 243)"], div[style*="background: rgb(247, 246, 243)"] xdiv {
-  background: #263238;
+  background: #263238 !important;
 }
 /*sidebar text*/
 div[style*="background: rgb(247, 246, 243)"] div {
-  color: #ECEFF1;
-  xcolor: #90A4AE;
+  color: #ECEFF1 !important;
+  xcolor: #90A4AE !important;
 }
 /*sidebar icons*/
 div[style*="background: rgb(247, 246, 243)"] svg {
-  fill: #78909C;
+  fill: #78909C !important;
 }
 /*sidebar subtitles*/
 div[style*="background: rgb(247, 246, 243)"] span {
-  color: #00BCD4;
+  color: #00BCD4 !important;
 }
 
 /*page heading*/
@@ -86,50 +86,50 @@ div[style*="background: rgb(247, 246, 243)"] span {
   border-top:5px solid #00BCD4
 }*/
 div[placeholder="Heading 1"] {
-  border-top: 2px solid #BDBDBD;
+  border-top: 2px solid #BDBDBD !important;
   /*border-left: 4px solid #00BCD4;
   margin-left: -4px;*/
 }
 
 /*page covers*/
 img[src*="/image/https%3A%2F%2Fwww.notion.so%2Fimages%2Fpage-cover"] {
-  background: #00BCD4;
-  padding-left: 100%;
-  height: 20px;
+  background: #00BCD4 !important;
+  padding-left: 100% !important;
+  height: 20px !important;
 }
 div[style*="position: relative; width: 100%; display: flex; flex-direction: column; align-items: center; height: 220px; cursor: default;"], div[style*="height: 30vh"]  {
-  height:20px;
+  height:20px !important;
 }
 
 /*underlines*/
 div[style*="background-size: 100% 1px;"], span[style*="background-size: 100% 1px;"] {
-  xbackground-size: 100% 2px;
-  background-image: linear-gradient(to right, #00BCD4 0%, #00BCD4 100%);
+  xbackground-size: 100% 2px !important;
+  background-image: linear-gradient(to right, #00BCD4 0%, #00BCD4 100%) !important;
 }
 
 /*grey hover to cyan with white text*/
 div[style*="background: rgba(55, 53, 47, 0.08)"], div[style*="background: rgba(55, 53, 47, 0.08)"] div {
-  background: #00BCD4;
-  color: white;
+  background: #00BCD4 !important;
+  color: white !important;
 }
 
 /*table border - unfinished*/
 div[style*="border-right: 1px solid rgb(237, 237, 236)"] {
-  xborder-right: solid 1px #CFD8DC;
+  xborder-right: solid 1px #CFD8DC !important;
 }
 
 /*table header*/
 div[style*="rgba(55, 53, 47"] div[style*="border-right"] {
-  color:#006064;
-  xcolor:black;
-  xfont-weight: bolder;
-  xtext-transform: uppercase;
-  background-color:#E0F7FA;
-  background-color: #dff6ff;
-  xletter-spacing: 1px;
+  color:#006064 !important;
+  xcolor:black !important;
+  xfont-weight: bolder !important;
+  xtext-transform: uppercase !important;
+  background-color:#E0F7FA !important;
+  background-color: #dff6ff !important;
+  xletter-spacing: 1px !important;
 }
 
 /*blue buttons*/
 div[style*="background: rgb(46, 170, 220)"][role*="button"] {
-  background-color: #00BCD4
+  background-color: #00BCD4 !important;
 }
