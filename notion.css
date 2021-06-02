@@ -109,7 +109,7 @@ div[style*="background-size: 100% 1px;"], span[style*="background-size: 100% 1px
 
 /*grey hover to cyan with white text*/
 div[style*="background: rgba(55, 53, 47, 0.08)"], div[style*="background: rgba(55, 53, 47, 0.08)"] div {
-  background: #00BCD4 !important;
+  background: #024851 !important;
   color: white !important;
 }
 
