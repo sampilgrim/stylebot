@@ -1,0 +1,17 @@
+div.AbstractThemeableRectangularButton--isEnabled.AbstractThemeableRectangularButton.AbstractThemeableRectangularButton--medium.BusinessUpgradeButton.TopbarContingentUpgradeButton-link.TopbarPageHeaderGlobalActions-upgradeButton {
+  display: none;
+}
+
+a.NavigationLink.SidebarItemRow--heightLarge.SidebarItemRow--leftAlign.SidebarItemRow.SidebarTopNavLinks-myPortfoliosbutton.BaseLink {
+  display: none;
+}
+
+a.NavigationLink.SidebarItemRow--heightLarge.SidebarItemRow--leftAlign.SidebarItemRow.SidebarTopNavLinks-goalsButton.BaseLink {
+  display: none;
+}
+
+.toggl-button.asana-board-view {
+  height: 6px !important;
+  width: 6px !important;
+  display: none;
+}
