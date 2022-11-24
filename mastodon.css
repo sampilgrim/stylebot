@@ -1,0 +1,124 @@
+/* BODY AND ROOT */
+:root {
+  --color-background: #ffffff;
+  --color-background-subtle: #f8f9f9;
+  --color-border-subtle: #f0f3f4;
+  --color-border: #d7dee2;
+}
+
+body {
+  background-color: var(--color-background);
+}
+
+
+/* LINKS */
+a:any-link {
+  text-decoration: none !important;
+}
+
+a.status-link {
+  text-decoration: underline !important;
+}
+
+
+
+/* HEADER */
+.tabs-bar__wrapper {
+  background: var(--color-background);
+}
+
+.load-gap {
+  border-bottom: 1px solid var(--color-border-subtle);
+}
+
+.column-header {
+  border: 1px solid var(--color-border-subtle) 
+}
+
+.column-header__wrapper.active {
+  box-shadow: none;
+}
+
+.column-header__wrapper.active::before {
+  content: none;
+}
+
+
+/* LEFT SIDEBAR */
+.search__input {
+  border: 1px solid var(--color-border-subtle);
+  transition: var(--fbc-transition);
+}
+
+.search__input:hover,
+.search__input:focus {
+  border: 1px solid var(--color-border);
+}
+
+.search__input,
+.search__input:focus {
+  background-color: #ffffff;
+}
+
+.compose-form__autosuggest-wrapper,
+.compose-form .compose-form__buttons-wrapper {
+  border: 1px solid var(--color-border-subtle);
+  transition: var(--fbc-transition);
+}
+
+.compose-form:hover .compose-form__buttons-wrapper,
+.compose-form:focus-within .compose-form__buttons-wrapper {
+  border: 1px solid var(--color-border);
+}
+
+.compose-form:hover .compose-form__autosuggest-wrapper,
+.compose-form:focus-within .compose-form__autosuggest-wrapper{
+  border-top: 1px solid var(--color-border);
+  border-left: 1px solid var(--color-border);
+  border-right: 1px solid var(--color-border);
+}
+
+.compose-form .compose-form__buttons-wrapper {
+  background-color: var(--color-background-subtle);
+}
+
+.compose-form__publish-button-wrapper button {
+  opacity: 0.3;
+  transition: var(--fbc-transition);
+}
+
+.compose-form:hover .compose-form__publish-button-wrapper button, 
+.compose-form:focus-within .compose-form__publish-button-wrapper button {
+  opacity: 1;
+}
+
+.emoji-picker-dropdown {
+  display: none;
+}
+
+
+/* POSTS */
+.status {
+  border-bottom: 1px solid var(--color-border-subtle);
+}
+
+.status__content__text {
+  max-width: 50ch;
+}
+
+
+/* RIGHT SIDEBAR */
+.compose-panel hr, 
+.navigation-panel hr {
+  border-top: 1px solid var(--color-border-subtle);
+}
+
+.column > .scrollable {
+  border: 1px solid var(--color-border-subtle);
+}
+
+
+/* FOOTER */
+.link-footer {
+  display: none;
+}
