@@ -1,6 +1,6 @@
-[data-automation-id="focused-symbol-mask"] {
+/* [data-automation-id="focused-symbol-mask"] {
   display: none !important;
-}
+} */
 
 [aria-label="Desktop - not active"] {
   /*background-color: #fd508d !important; */
