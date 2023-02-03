@@ -53,25 +53,3 @@ body::after {
   font-weight: 800;
   border-radius: 1px;
 }
-
-:has(:not(meta[content*="a6a04a03dcea957b7ef7bd187a2af01f7029b1bd"])) /* not live project */
-:has([title*="Webflow - Tamarindo - Staging"]) /* a Tamarindo project */
-body::after {
-  content: "Staging";
-  display: inline-block;
-  padding: 0.5em 1em;
-  font-size: 0.5rem;
-  background-color: red;
-  color:white;
-  opacity: 0.75;
-  position: fixed;
-  bottom:10px;
-  left: 45px;
-  z-index:99999;
-  pointer-events: none;
-  font-family: Inter,Arial,sans-serif;
-  text-transform: uppercase;
-  letter-spacing:0.05em;
-  font-weight: 800;
-  border-radius: 1px;
-}
