@@ -54,7 +54,7 @@ body::after {
   border-radius: 1px;
 }
 
-:has:not(meta[content*="a6a04a03dcea957b7ef7bd187a2af01f7029b1bd"]) /* not live project */
+:has(:not(meta[content*="a6a04a03dcea957b7ef7bd187a2af01f7029b1bd"])) /* not live project */
 :has([title*="Webflow - Tamarindo - Staging"]) /* a Tamarindo project */
 body::after {
   content: "Staging";
