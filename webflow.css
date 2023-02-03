@@ -18,3 +18,38 @@
     background-color: #fd508d;
     }
 }
+
+
+/* flag when on live Tamarindo project site */
+
+/* sample from staging: 
+<title>Webflow - Tamarindo - Staging 2023-02-03T17:27 (Briefings)</title>
+<meta name="app-version" content="&quot;2023-02-03T16:45:24.175Z - a6a04a03dcea957b7ef7bd187a2af01f7029b1bd&quot;">
+
+live site:
+content=""2023-02-03T16:45:24.175Z - a6a04a03dcea957b7ef7bd187a2af01f7029b1bd""
+Webflow - Tamarindo
+
+*/
+
+/* live Tamarindo project */
+:has(head > meta[content*="a6a04a03dcea957b7ef7bd187a2af01f7029b1bd"]) 
+body::after {
+  content: "Live";
+  display: inline-block;
+  padding: 0.5em 1em;
+  font-size: 0.5rem;
+  background-color: #007711;
+  color:white;
+  opacity: 0.75;
+  position: fixed;
+  bottom:10px;
+  left: 45px;
+  z-index:99999;
+  pointer-events: none;
+  font-family: Inter,Arial,sans-serif;
+  text-transform: uppercase;
+  letter-spacing:0.05em;
+  font-weight: 800;
+  border-radius: 1px;
+}
