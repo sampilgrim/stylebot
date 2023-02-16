@@ -19,6 +19,12 @@
     }
 }
 
+/* Make first column of CMS in Designer wider */
+[data-automation-id="cms-collection-table"] :is([data-automation-id="table-header"], 
+[data-automation-id="data-manager-table-row-item"]) > div:first-of-type {
+    min-width: 300px;
+}
+
 
 /* flag when on live Tamarindo project site - not working */
 
