@@ -25,6 +25,11 @@
     min-width: 300px;
 }
 
+/* make CSS style selector more obvious when active */
+[data-automation-id="selector-widget"]:has([data-automation-id="css-token-input"])[style*="box-shadow: rgb(36, 150, 255)"] {
+  background-color: #fd508d !important;
+}
+
 
 /* flag when on live Tamarindo project site - not working */
 
